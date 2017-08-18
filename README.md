@@ -1,2 +1,2 @@
 # Certificates-reader
-Droping some certificates with ".cer" file extantion and reading some info about.
+Dropping some certificates with ".cer" file extantion and reading some info about.
