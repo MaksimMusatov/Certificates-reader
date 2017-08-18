@@ -1,0 +1,48 @@
+body {
+  background: #4abdac;
+  margin: 0;
+  font: 18px/22px Tahoma, Geneva, sans-serif;
+}
+#drop_zone {
+  width: 300px;
+  line-height: 300px;
+  background: #dfdce3;
+  text-align: center;
+  float: right;
+  margin-top: -1px;
+  border: 1px dashed black;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#cert_list {
+  width: 310px;
+  background: #ffb380;
+  float: left;
+  margin: 0 0 50px 0;
+  }
+
+.holder {
+  max-width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #4abdac;
+}
+
+li {
+  border: 1px solid black;
+  list-style-type: none;
+  margin-left: -40px;
+  margin-top: -1px;
+  padding-left: 10px;
+}
+.hidden > .detailsInfo{
+  display: none;
+}
+.detailsInfo{
+  display: block;
+}
+.cert_info:hover{
+ cursor: pointer;
+}
